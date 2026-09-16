@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2 - Rádio e Checkbox</title>
+</head>
+<body>
+    <header>
+<H1>Preencha as informações para cadastro</H1>
+    </header>
+    <main>
+
+<!-- Tag REQUIRED  de extrema importancia ser usada ao utilizar em sites que contém email ou confirmação  de informações pessoais, 
+    e importante também colocar validação no site-->
+
+        <form action="">
+            <label for="color">Insira seu e-mail:</label>
+            <input type="e-mail" name="e-mail" id="e-mail" required="true" maxlength="75" placeholder="E-mail"> 
+<br>
+<br>
+            <label for="nome">Insira seu nome:</label>
+            <input type="text" name="nome" id="nome"required="true" maxlength="75" placeholder="Nome Completo">
+            <!-- Tag MAXLENGTH é o que da limite a quantidade de caracteres -->
+<br>
+<br>
+            <label for="color">Escolha uma cor:</label><br>
+            <input type="color" name="color" id="color">
+
+            <label for="color"></label>
+            <input type="color" name="color" id="color">
+
+            <label for="color"></label>
+            <input type="color" name="color" id="color">
+<br>
+<br>
+            <label for="">Avalie o atendimento</label>
+            <br>
+            <input type="radio" name="estrelas" id="" value="3">
+            <label for="3 estrelas">⭐⭐⭐</label>
+            <br>
+            <input type="radio" name="estrelas" id="" value="2">
+            <label for="2 estrelas">⭐⭐</label>
+            <br>
+            <input type="radio" name="estrelas" id="" value="1">
+            <label for="1 estrelas">⭐</label>
+ <br>
+ <br>
+            <label for="comentario">Deixe um comentário:</label>
+<br>
+            <textarea name="" id="comentario" placeholder="Descreva sua experiência" cols="30" rows="5"></textarea>
+<br>
+
+            <input type="submit" value="Enviar!">   
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
