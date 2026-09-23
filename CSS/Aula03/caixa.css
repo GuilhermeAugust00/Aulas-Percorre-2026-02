@@ -1,0 +1,37 @@
+/* Para invocar um ID utilizamos #nomedoID
+e para invocar uma CLASSE utilizamos .nomedaCLASSE */
+
+
+#quadrado1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 3, 3);
+border: 5px black solid;
+}
+
+#quadrado2{
+    width: 200px;
+    height: 210px;
+    background-color: rgb(217, 255, 0);
+    border: 5px black solid;
+}
+
+#quadrado3{
+    width: 200px;
+    height: 210px;
+    background-color: rgb(5, 177, 14);
+    border: 5px black solid;
+}
+
+#foto{
+    width: 350px;
+    height: 450px;
+    padding: 100px;
+}
+
+#container{
+/* Invés de utilizarmos todos os comandos de padding podemos utulizar apenas a versão anreviada que colocara padding na seguinte ordem: topo, direita, baixo, esquerda */
+    height: 650px;
+    background-color: rgb(9, 9, 0);
+    padding: 50px 100px 50px 100px;
+
