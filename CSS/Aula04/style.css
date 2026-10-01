@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    
+    background-color: rgb(243, 5, 5);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+}
+
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#usuario {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#nome-usuario{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+a{
+    font-family: "Raleway", sans-serif;
+    padding-left: 10px;
+    /* text-decoration: none remove o sublinhado do link ou quaisquer outras decorações que usa uma tag textual possa ter */
+    text-decoration: none;
+}
+
+#header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer{
+    background-color: rgb(249, 249, 249);
+    height: 450px;
+}
+
+#direitos{
+    color: aliceblue;
+    font-size: 30px;
+}
