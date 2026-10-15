@@ -4,7 +4,7 @@
 console.log("Vou ta contando até 10 ai ceis saem correndo");
 
 // Inicialização   Condição    Incremento
-for(let i = 0;     i<= 10;        i +=2 ) {
+for(let i = 0;     i<= 10;        i +=1 ) {
     console.log(i);
 }
 
