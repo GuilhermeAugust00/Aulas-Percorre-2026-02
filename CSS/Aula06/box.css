@@ -1,0 +1,47 @@
+.container {
+    /* O container esta flexivel só qie ordenando os itens de cima para baixo (coluna) */
+    display: flex;
+    flex-direction: column;
+
+    /* Por padrao o display flex ordena os intens em linha e isso faz com que justify funcione na horizontal e align na vertical. A partir do momentos que colocamos flex-direction: column os papeis se invertem e agora o justify funciona na vertical  o align na horizontal */
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 50vw;
+    height: 20vw;
+    background-color: blue;
+
+    border-radius: 100px;
+}
+
+.quadrados {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 25%;
+    
+
+    /* Editar numero */
+    color: white;
+    font-size: 80px;
+
+    /* Editar a posição dos quadrados */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.tela {
+    /* Centralizando os itens horizontalmente e verticalmente na tela (body) */
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Como o display flex so abre espaço no eixo main, é necessario configurar uma altura manualmente para que o body tenha uma caixa com altura que possibilite movimentar os itens internamente */
+
+    /* 90VH = 90% do viewport height (altura da visualização) */
+    height: 90vh;
+}
