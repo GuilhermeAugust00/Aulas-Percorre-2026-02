@@ -1,0 +1,27 @@
+/* O pseudoelemento firt-letter seleciona apenas a primeira letra do elemento escolhido e aplica as configurações do CSS isoladamente, deixando o restante do texto intocado */
+h1::first-letter {
+    color: red;
+    font-size: 30rem;
+}
+
+p::first-line {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/* Como o pseudoelemento seleciona partes de algum elemento, é possivel também selecionar o espaço vazio antes e depois de tal elemento. No exemplo abaixo inserimos um emoji 
+com texto ANTES dos li e DEPOIS dos li foi inserida uma imagem. Esse elementos inseridos via CSS não existem no HTML, por isso os chamamos de pseudo-elementos. */
+li::before {
+    content: "☢";
+    font-size: 300px;
+}
+
+li::after{
+    content: url(https://i.pinimg.com/474x/05/de/05/05de055ea6e0c1fa992e94bf536d5336.jpg);
+}
+
+p::selection {
+    background-color: rgb(1, 253, 190);
+}
+
+/* A diferenla entre pseudoclasse: e pseudoelemento:: é que a pseudoclasse age em uma AÇÃO e o pseudoelemento age em partes do elemento selecionado */

@@ -1,0 +1,44 @@
+.vitrine {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.vitrine-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(82, 82, 56);
+    border-radius: 25%;
+    border: 15px solid yellowgreen;
+
+    width: 350px;
+    height: 350px;
+
+    font-size: 30px;
+    color: aliceblue;
+} 
+
+.vitrine-card img {
+
+    width: 200px;
+    height: 200px;
+} 
+
+/* TODO O CSS QUE ESTIVER DENTRO DO @MEIDA SÓ FUNCIONA NO CELULAR, NTÃO ESSAS REGRAS SERÃO IGNORADAS EM TELAS GRANDES */
+/* Regras para teças e que tenham no maximo 440px de largura */
+@media (max-width:400px){
+
+    body {
+        background-color: #8a0707;
+    }
+
+    .vitrine{
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+
+    /* Responsividade é um assunto muito importante que pode ser tratado de maneira simples no exemplo acima temos uma regra que deve abranger a maioria dos dispositivos moveis */
